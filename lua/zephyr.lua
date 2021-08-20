@@ -140,30 +140,30 @@ function zephyr.load_syntax()
     PreCondit = {fg=zephyr.violet};
     Include = {fg=zephyr.violet};
     Define = {fg=zephyr.violet};
-    Conditional = {fg=zephyr.magenta};
-    Repeat = {fg=zephyr.magenta};
-    Keyword = {fg=zephyr.green};
+    Conditional = {fg=zephyr.magenta,style='bold'};
+    Repeat = {fg=zephyr.magenta,style='bold'};
+    Keyword = {fg=zephyr.green,style='bold'};
     Typedef = {fg=zephyr.red};
     Exception = {fg=zephyr.red};
     Statement = {fg=zephyr.red};
-    Error = {fg=zephyr.red};
+    Error = {fg=zephyr.red,style='bold,reverse'};
     StorageClass = {fg=zephyr.orange};
     Tag = {fg=zephyr.orange};
     Label = {fg=zephyr.orange};
     Structure = {fg=zephyr.orange};
     Operator = {fg=zephyr.redwine};
     Title = {fg=zephyr.orange,style='bold'};
-    Special = {fg=zephyr.yellow};
+    Special = {fg=zephyr.yellow,style='italic'};
     SpecialChar = {fg=zephyr.yellow};
     Type = {fg=zephyr.teal};
-    Function = {fg=zephyr.yellow};
-    String = {fg=zephyr.light_green};
+    Function = {fg=zephyr.yellow,style='bold'};
+    String = {fg=zephyr.light_green,style='italic'};
     Character = {fg=zephyr.green};
     Constant = {fg=zephyr.cyan};
-    Macro = {fg=zephyr.cyan};
+    Macro = {fg=zephyr.cyan,style='bold'};
     Identifier = {fg=zephyr.blue};
 
-    Comment = {fg=zephyr.base6};
+    Comment = {fg=zephyr.base6,style='italic'};
     SpecialComment = {fg=zephyr.grey};
     Todo = {fg=zephyr.violet};
     Delimiter = {fg=zephyr.fg};
@@ -180,9 +180,9 @@ end
 
 function zephyr.load_plugin_syntax()
   local plugin_syntax = {
-    TSFunction = {fg=zephyr.cyan};
-    TSMethod = {fg=zephyr.cyan};
-    TSKeywordFunction = {fg=zephyr.red};
+    TSFunction = {fg=zephyr.cyan,style='bold'};
+    TSMethod = {fg=zephyr.cyan,style='bold'};
+    TSKeywordFunction = {fg=zephyr.red,style='bold'};
     TSProperty = {fg=zephyr.yellow};
     TSType = {fg=zephyr.teal};
     TSVariable = {fg=zephyr.blue};
