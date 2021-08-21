@@ -12,6 +12,7 @@ local zephyr = {
   base6      = '#73797e';
   base7      = '#9ca0a4';
   base8      = '#b1b1b1';
+  base9      = '#824020';
 
   bg = '#282a36';
   bg1 = '#504945';
@@ -95,7 +96,7 @@ function zephyr.load_syntax()
     CursorIM = {fg=zephyr.none,bg=zephyr.none,style='reverse'};
     CursorColumn = {fg=zephyr.none,bg=zephyr.bg_highlight};
     CursorLine = {fg=zephyr.none,bg=zephyr.bg_highlight};
-    LineNr = {fg=zephyr.base4};
+    LineNr = {fg=zephyr.base9};
     qfLineNr = {fg=zephyr.cyan};
     CursorLineNr = {fg=zephyr.blue};
     DiffAdd = {fg=zephyr.black,bg=zephyr.dark_green};
